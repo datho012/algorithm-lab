@@ -1,2 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
-:root{--ink:#203c34;--muted:#748078;--paper:#f6f7f2;--line:#dce2d8;--green:#24533f;--lime:#dfedac}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.65 'Be Vietnam Pro',sans-serif}a{color:inherit}aside{position:fixed;inset:0 auto 0 0;width:274px;background:#eef1e9;border-right:1px solid var(--line);display:flex;flex-direction:column;padding:30px 18px 18px}.brand{font:700 20px 'DM Sans',sans-serif;text-decoration:none;padding:0 12px 28px;display:block}.logo{display:inline-grid;place-items:center;width:34px;height:34px;background:var(--green);color:var(--lime);border-radius:10px;font-size:27px;margin-right:9px}.edition{display:block;font-size:9px;letter-spacing:2px;margin:12px 0 0 46px;color:var(--muted)}.sidebar-title{font-size:10px;letter-spacing:1.4px;padding:10px 12px;display:flex;justify-content:space-between}.sidebar-title span{background:#dfe5d8;border-radius:4px;padding:0 6px}nav{overflow:auto;flex:1;scrollbar-width:thin}nav details{border:0;margin:3px 0;background:none}nav summary{padding:10px 12px;font-size:12px;font-weight:600;cursor:pointer}nav a{display:block;text-decoration:none;padding:9px 10px 9px 16px;margin:3px 0;font-size:11px;border-radius:7px;color:#637268}nav a.active{background:var(--green);color:white}nav a:hover{background:#dce5d3}nav a.active:hover{background:var(--green)}nav a small{opacity:.65;margin-right:8px;font-variant-numeric:tabular-nums}footer{padding:16px 12px 0;font-size:10px;line-height:1.9;color:var(--muted);border-top:1px solid var(--line)}footer strong{color:var(--ink);font-weight:500}main{margin-left:274px;padding:0 46px 24px;max-width:1600px}header{height:77px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:1.5px;color:var(--muted)}.source-tag{border:1px solid var(--line);border-radius:99px;padding:6px 12px;letter-spacing:.7px}.intro{display:flex;align-items:center;justify-content:space-between;padding:32px 0 30px;gap:25px}.eyebrow{font-size:9px;letter-spacing:1.8px;font-weight:700;color:#6d8368}.intro h1{font-size:34px;line-height:1.35;letter-spacing:-1.2px;margin:10px 0 14px;font-weight:600}.intro em{font-style:normal;color:#759365}.intro p:not(.eyebrow){font-size:12px;color:var(--muted);margin:0}.method{max-width:250px;border-left:1px solid #cbd7bc;padding-left:24px}.method b{display:block;font:500 33px 'DM Sans',sans-serif;letter-spacing:4px}.method span{display:block;font-size:11px;margin:10px 0}.method small{font-size:10px;color:var(--muted)}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 240px;align-items:start;gap:24px}.lesson-top{background:var(--green);color:white;padding:26px 30px;border-radius:12px 12px 0 0}.tags{display:flex;gap:10px;align-items:center;font-size:9px;letter-spacing:1px}.badge{padding:3px 8px;border-radius:5px;background:#ffffff20;color:#e4edc8}.lesson-top h2{font-size:24px;line-height:1.4;letter-spacing:-.5px;margin:16px 0 9px}.lesson-top p{font-family:'DM Sans',sans-serif;font-size:14px;color:#e1e9dc;margin:0}.lesson-body{border:1px solid var(--line);border-top:0;background:#fff;border-radius:0 0 12px 12px;padding:24px 30px}.constraints{font:11px/1.8 monospace;padding:12px 15px;background:#f3f5ef;border-radius:7px;margin-bottom:24px;overflow-wrap:anywhere}.section-label{font-size:13px;font-weight:600;display:flex;align-items:center;gap:10px;margin:0 0 12px}.num{font:12px 'DM Sans',sans-serif;color:#83927a;border:1px solid var(--line);border-radius:5px;padding:4px 6px}.io{display:grid;grid-template-columns:1fr 1fr;gap:20px}.io p{font-family:'DM Sans',sans-serif;font-size:13px;line-height:1.6;min-height:42px}.code-label{font-size:9px;letter-spacing:1px;color:var(--muted);margin-top:12px}pre{font:12px/1.8 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f5f0;padding:14px;border-radius:7px;tab-size:2;margin:8px 0 20px}details.learning{border-top:1px solid var(--line);padding:17px 0 1px}details.learning summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between}details.learning summary:after{content:'＋';color:#64885a}details.learning[open] summary:after{content:'−'}details.learning p{font-size:12px;color:#4e6054}details.learning pre{background:#203c34;color:#e7efd9;font-size:12px}.criteria{padding:0;list-style:none}.criteria li{padding:8px 0;font-size:12px;display:flex;gap:9px;align-items:start}.criteria input{accent-color:var(--green);margin-top:5px;flex-shrink:0}.complexity{font:11px/1.6 monospace;color:#557743!important;background:#eff5e7;padding:10px;border-radius:5px}.study-guide{background:#edf1e5;padding:24px 20px;border-radius:12px;border:1px solid #e0e6d6}.study-guide h3{font-size:16px;font-weight:500;line-height:1.5;margin:10px 0 20px}.study-guide ol{padding-left:17px;font-size:11px;color:#62715f}.study-guide li{padding:0 0 15px 5px}.note{font-size:10px;color:#6c7a63;line-height:1.8;border-top:1px solid #d7dfcf;padding-top:14px;margin-top:10px}.issues-link{font-size:10px;display:block;margin-top:18px;color:#8a6533}.warning{border-left:3px solid #c49441;background:#fcf6e8;padding:13px 15px;font-size:12px;margin:0 0 20px;color:#78591f}.warning b{display:block;margin-bottom:4px}.pager{display:flex;justify-content:space-between;align-items:center;margin:24px 264px 0 0}.pager button{border:1px solid #cbd5c5;border-radius:7px;padding:10px 15px;background:transparent;color:var(--ink);font:11px 'Be Vietnam Pro',sans-serif;cursor:pointer}.pager button:hover{background:var(--lime)}.pager button:disabled{opacity:.4;cursor:default}.pager span{font-size:10px;color:var(--muted)}.bottom{font-size:9px;letter-spacing:1.4px;text-align:center;margin-top:40px;color:#87907f}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #afc769;outline-offset:3px}@media(min-width:1500px){main{margin-right:auto}.lesson-top h2{font-size:28px}}@media(max-width:1150px){main{padding:0 28px 24px}.workspace{grid-template-columns:1fr}.study-guide{display:none}.pager{margin-right:0}.method{display:none}}@media(max-width:700px){aside{position:relative;width:100%;padding:18px;height:auto}.brand{padding:0 0 12px}.edition{display:none}.sidebar-title,footer{display:none}nav{max-height:165px;border-top:1px solid var(--line)}nav details{margin:0}main{margin:0;padding:0 16px 24px}header{height:52px;font-size:8px}.source-tag{font-size:8px}.intro{padding:24px 0}.intro h1{font-size:27px}.intro p:not(.eyebrow){font-size:11px}.lesson-top{padding:22px}.lesson-top h2{font-size:21px}.lesson-body{padding:20px}.io{grid-template-columns:1fr;gap:0}.io p{min-height:0}.pager{gap:10px}.pager button{padding:10px}.study-guide{display:block}.bottom{font-size:8px}}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap');
+:root{--ink:#203c34;--muted:#748078;--paper:#f6f7f2;--line:#dce2d8;--green:#24533f;--lime:#dfedac;--editor-bg:#1a2b25;--editor-text:#e6f3eb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.65 'Be Vietnam Pro',sans-serif}
+a{color:inherit}
+aside{position:fixed;inset:0 auto 0 0;width:274px;background:#eef1e9;border-right:1px solid var(--line);display:flex;flex-direction:column;padding:30px 18px 18px}
+.brand{font:700 20px 'DM Sans',sans-serif;text-decoration:none;padding:0 12px 28px;display:block}
+.logo{display:inline-grid;place-items:center;width:34px;height:34px;background:var(--green);color:var(--lime);border-radius:10px;font-size:27px;margin-right:9px}
+.edition{display:block;font-size:9px;letter-spacing:2px;margin:12px 0 0 46px;color:var(--muted)}
+.sidebar-title{font-size:10px;letter-spacing:1.4px;padding:10px 12px;display:flex;justify-content:space-between}
+.sidebar-title span{background:#dfe5d8;border-radius:4px;padding:0 6px}
+nav{overflow:auto;flex:1;scrollbar-width:thin}
+nav details{border:0;margin:3px 0;background:none}
+nav summary{padding:10px 12px;font-size:12px;font-weight:600;cursor:pointer}
+nav a{display:block;text-decoration:none;padding:9px 10px 9px 16px;margin:3px 0;font-size:11px;border-radius:7px;color:#637268}
+nav a.active{background:var(--green);color:white}
+nav a:hover{background:#dce5d3}
+nav a.active:hover{background:var(--green)}
+nav a small{opacity:.65;margin-right:8px;font-variant-numeric:tabular-nums}
+footer{padding:16px 12px 0;font-size:10px;line-height:1.9;color:var(--muted);border-top:1px solid var(--line)}
+footer strong{color:var(--ink);font-weight:500}
+main{margin-left:274px;padding:0 46px 24px;max-width:1600px}
+header{height:77px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:1.5px;color:var(--muted)}
+.source-tag{border:1px solid var(--line);border-radius:99px;padding:6px 12px;letter-spacing:.7px}
+.intro{display:flex;align-items:center;justify-content:space-between;padding:32px 0 30px;gap:25px}
+.eyebrow{font-size:9px;letter-spacing:1.8px;font-weight:700;color:#6d8368}
+.intro h1{font-size:34px;line-height:1.35;letter-spacing:-1.2px;margin:10px 0 14px;font-weight:600}
+.intro em{font-style:normal;color:#759365}
+.intro p:not(.eyebrow){font-size:12px;color:var(--muted);margin:0}
+.method{max-width:250px;border-left:1px solid #cbd7bc;padding-left:24px}
+.method b{display:block;font:500 33px 'DM Sans',sans-serif;letter-spacing:4px}
+.method span{display:block;font-size:11px;margin:10px 0}
+.method small{font-size:10px;color:var(--muted)}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 240px;align-items:start;gap:24px}
+.lesson-top{background:var(--green);color:white;padding:26px 30px;border-radius:12px 12px 0 0}
+.tags{display:flex;gap:10px;align-items:center;font-size:9px;letter-spacing:1px}
+.badge{padding:3px 8px;border-radius:5px;background:#ffffff20;color:#e4edc8}
+.lesson-top h2{font-size:24px;line-height:1.4;letter-spacing:-.5px;margin:16px 0 9px}
+.lesson-top p{font-family:'DM Sans',sans-serif;font-size:14px;color:#e1e9dc;margin:0}
+.lesson-body{border:1px solid var(--line);border-top:0;background:#fff;border-radius:0 0 12px 12px;padding:24px 30px}
+.constraints{font:11px/1.8 monospace;padding:12px 15px;background:#f3f5ef;border-radius:7px;margin-bottom:24px;overflow-wrap:anywhere}
+.section-label{font-size:13px;font-weight:600;display:flex;align-items:center;gap:10px;margin:0 0 12px}
+.num{font:12px 'DM Sans',sans-serif;color:#83927a;border:1px solid var(--line);border-radius:5px;padding:4px 6px}
+.io{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.io p{font-family:'DM Sans',sans-serif;font-size:13px;line-height:1.6;min-height:42px}
+.code-label{font-size:9px;letter-spacing:1px;color:var(--muted);margin-top:12px}
+pre{font:12px/1.8 Consolas,'Fira Code',monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f5f0;padding:14px;border-radius:7px;tab-size:2;margin:8px 0 20px}
+details.learning{border-top:1px solid var(--line);padding:17px 0 1px}
+details.learning summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between}
+details.learning summary:after{content:'＋';color:#64885a;font-weight:bold}
+details.learning[open] summary:after{content:'−'}
+details.learning p{font-size:12px;color:#4e6054}
+details.learning pre{background:#203c34;color:#e7efd9;font-size:12px}
+.learning-content{padding-top:12px}
+.goal-box{background:#f0f5eb;border-left:4px solid var(--green);padding:10px 14px;font-size:13px;margin-bottom:12px;border-radius:0 6px 6px 0}
+.idea-box{font-size:13px;line-height:1.6;color:#2f4639;margin-bottom:14px}
+.trace-box{background:#f8faf6;border:1px dashed #cad4c2;border-radius:8px;padding:12px 16px;margin:14px 0}
+.trace-list{padding-left:20px;margin:8px 0 4px;font-size:12px;color:#3b4d40}
+.trace-list li{margin-bottom:6px}
+.limit-box{background:#fff9e6;border:1px solid #ebd9a2;border-radius:6px;padding:10px 14px;font-size:12px;color:#785818;margin:12px 0}
+.editor-section{background:#f9fbf8;border:1px solid #d5decb;border-radius:10px;padding:18px;margin:12px 0}
+.editor-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:10px}
+.editor-title{font-size:13px;font-weight:700;color:var(--green);letter-spacing:.5px}
+.editor-actions{display:flex;gap:8px;flex-wrap:wrap}
+.editor-actions button{border-radius:6px;padding:8px 14px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid transparent;transition:all .15s ease}
+.btn-sm{background:#e7ede2;color:#334d3b;border-color:#cbdbbe!important}
+.btn-sm:hover{background:#d8e5d0}
+.btn-primary{background:var(--green);color:white}
+.btn-primary:hover{background:#183c2c}
+.btn-accent{background:#d6e896;color:#1e3d16;border-color:#b5ce67!important}
+.btn-accent:hover{background:#c6df7c}
+.code-editor{width:100%;height:320px;font:13px/1.7 'Fira Code',Consolas,monospace;background:var(--editor-bg);color:var(--editor-text);padding:14px;border-radius:8px;border:1px solid #14241e;resize:vertical;outline:none;tab-size:4}
+.code-editor:focus{border-color:#538f6b;box-shadow:0 0 0 2px rgba(36,83,63,0.2)}
+.io-console-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:14px}
+.console-col{display:flex;flex-direction:column}
+.console-label-row{display:flex;justify-content:space-between;align-items:center}
+.console-label{font-size:11px;font-weight:600;color:var(--muted);margin-bottom:6px;display:block}
+.status-indicator{font-size:10px;color:#2f6e4d;font-weight:600}
+.console-textarea{width:100%;height:140px;font:12px/1.6 Consolas,monospace;padding:10px;border-radius:6px;border:1px solid #ced8c4;background:#fff;resize:vertical}
+.console-output{margin:0;height:140px;overflow:auto;background:#203c34;color:#f0f8e8;padding:10px;border-radius:6px;font:12px/1.6 Consolas,monospace}
+.test-cases-section{margin-top:20px;border-top:1px dashed #cad4c2;padding-top:14px}
+.test-heading{font-size:12px;font-weight:700;color:var(--ink);margin:0 0 10px}
+.test-cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.test-card{background:#fff;border:1px solid #d8e2d0;border-radius:8px;padding:12px}
+.test-card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.test-card-header strong{font-size:12px}
+.test-badge{font-size:10px;padding:2px 7px;border-radius:4px;font-weight:600;background:#e5ebe0;color:#55665a}
+.test-badge.pass{background:#dcf2db;color:#1e6a24}
+.test-badge.fail{background:#fde3e3;color:#9b2424}
+.test-badge.running{background:#fff0cd;color:#7e5b0b}
+.test-row{font-size:11px;margin:4px 0}
+.test-val{background:#f3f6ee;padding:2px 6px;border-radius:4px;font-size:11px;word-break:break-all}
+.btn-use-test{margin-top:8px;width:100%;font-size:10px;padding:5px 8px;background:#f3f7ef;border:1px solid #cbd7c2;border-radius:5px;cursor:pointer}
+.btn-use-test:hover{background:#e4ecd9}
+.criteria{padding:0;list-style:none}
+.criteria li{padding:8px 0;font-size:12px;display:flex;gap:9px;align-items:start}
+.criteria input{accent-color:var(--green);margin-top:5px;flex-shrink:0}
+.complexity{font:11px/1.6 monospace;color:#557743!important;background:#eff5e7;padding:10px;border-radius:5px}
+.study-guide{background:#edf1e5;padding:24px 20px;border-radius:12px;border:1px solid #e0e6d6}
+.study-guide h3{font-size:16px;font-weight:500;line-height:1.5;margin:10px 0 20px}
+.study-guide ol{padding-left:17px;font-size:11px;color:#62715f}
+.study-guide li{padding:0 0 15px 5px}
+.note{font-size:10px;color:#6c7a63;line-height:1.8;border-top:1px solid #d7dfcf;padding-top:14px;margin-top:10px}
+.issues-link{font-size:10px;display:block;margin-top:18px;color:#8a6533}
+.warning{border-left:3px solid #c49441;background:#fcf6e8;padding:13px 15px;font-size:12px;margin:0 0 20px;color:#78591f}
+.warning b{display:block;margin-bottom:4px}
+.pager{display:flex;justify-content:space-between;align-items:center;margin:24px 264px 0 0}
+.pager button{border:1px solid #cbd5c5;border-radius:7px;padding:10px 15px;background:transparent;color:var(--ink);font:11px 'Be Vietnam Pro',sans-serif;cursor:pointer}
+.pager button:hover{background:var(--lime)}
+.pager button:disabled{opacity:.4;cursor:default}
+.pager span{font-size:10px;color:var(--muted)}
+.bottom{font-size:9px;letter-spacing:1.4px;text-align:center;margin-top:40px;color:#87907f}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #afc769;outline-offset:3px}
+@media(min-width:1500px){main{margin-right:auto}.lesson-top h2{font-size:28px}}
+@media(max-width:1150px){main{padding:0 28px 24px}.workspace{grid-template-columns:1fr}.study-guide{display:none}.pager{margin-right:0}.method{display:none}}
+@media(max-width:768px){
+  aside{position:relative;width:100%;padding:18px;height:auto}
+  .brand{padding:0 0 12px}
+  .edition{display:none}
+  .sidebar-title,footer{display:none}
+  nav{max-height:165px;border-top:1px solid var(--line)}
+  nav details{margin:0}
+  main{margin:0;padding:0 16px 24px}
+  header{height:52px;font-size:8px}
+  .source-tag{font-size:8px}
+  .intro{padding:24px 0}
+  .intro h1{font-size:27px}
+  .intro p:not(.eyebrow){font-size:11px}
+  .lesson-top{padding:22px}
+  .lesson-top h2{font-size:21px}
+  .lesson-body{padding:20px}
+  .io{grid-template-columns:1fr;gap:0}
+  .io p{min-height:0}
+  .io-console-grid{grid-template-columns:1fr}
+  .editor-header{flex-direction:column;align-items:flex-start}
+  .editor-actions{width:100%}
+  .editor-actions button{flex:1;min-height:44px;font-size:13px}
+  .btn-use-test{min-height:40px;font-size:12px}
+  .pager{gap:10px;margin-right:0}
+  .pager button{padding:12px 18px;min-height:44px;font-size:13px}
+  .study-guide{display:block}
+  .bottom{font-size:8px}
+}
